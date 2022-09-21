@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="javaGUI">
+  <grid id="27dc6" binding="Main" layout-manager="GridLayoutManager" row-count="10" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="10" bottom="10" right="5"/>
+    <constraints>
+      <xy x="284" y="160" width="609" height="723"/>
+    </constraints>
+    <properties>
+      <background color="-8195342"/>
+      <foreground color="-895900"/>
+    </properties>
+    <border type="none" title=""/>
+    <children>
+      <component id="b2f4b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="413" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Chalkboard SE" size="22" style="1"/>
+          <text value="Product Name"/>
+        </properties>
+      </component>
+      <component id="837f4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="413" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Chalkboard SE" size="22" style="1"/>
+          <text value="Price"/>
+        </properties>
+      </component>
+      <component id="a1abe" class="javax.swing.JTextField" binding="txtName">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e334f" class="javax.swing.JTextField" binding="txtPrice">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="631aa" class="javax.swing.JButton" binding="saveButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="413" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Chalkboard SE" size="22" style="1"/>
+          <hideActionText value="false"/>
+          <text value="Save"/>
+        </properties>
+      </component>
+      <component id="7a982" class="javax.swing.JButton" binding="deleteButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="413" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Chalkboard SE" size="22" style="1"/>
+          <text value="Delete"/>
+        </properties>
+      </component>
+      <component id="aa2a1" class="javax.swing.JButton" binding="updateButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="413" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Chalkboard SE" size="22" style="1"/>
+          <text value="Update"/>
+        </properties>
+      </component>
+      <component id="954ba" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="413" height="22"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Chalkboard SE" size="22" style="1"/>
+          <text value="Product ID"/>
+        </properties>
+      </component>
+      <component id="f86d3" class="javax.swing.JTextField" binding="txtpid">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="af255" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="413" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Chalkboard SE" size="22" style="1"/>
+          <text value="Qty"/>
+        </properties>
+      </component>
+      <component id="e6395" class="javax.swing.JTextField" binding="txtQty">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d4968" class="javax.swing.JButton" binding="searchButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Chalkboard SE" size="22" style="1"/>
+          <text value="Search"/>
+        </properties>
+      </component>
+      <component id="1385" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Chalkboard SE" size="36" style="1"/>
+          <text value="Inventory Management"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
